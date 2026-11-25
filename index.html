@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ICON -->
+ <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRsBNhoKF3uNjIYCT6AjGQ-woBP58B-boTihruNn8FESoNRTfCmFZvFkpyJK1K2PBkSsY&usqp=CAU"
+      type="image/png"
+    />
+  
+     <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  <!-- CSS -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+
+    <title>MM | Fitness</title>
+<body>
+ <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <span class="logo">MM Fitness</span>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#about" class="scroll-link">About</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Health</a>
+              </li>
+              <li>
+                <a href="#ebook" class="scroll-link">Ebook</a>
+              </li>
+              <li>
+                <a href="#clients" class="scroll-link">Clients</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>I am Matej</h1>
+          <p>
+            " The meaning of life is not simply to exist, to survive, but to move ahead, to go up, to achieve, to conquer " ~ A. S.
+          </p>
+          <a href="#contact" class="scroll-link btn btn-white"
+            >Contact me</a
+          >
+          <div class="header-icons">
+            <a href="mailto:hello@peakmindacademy.com"
+              ><i class="fas fa-envelope"></i>
+            </a>
+
+            <a href="tel:+14155550148"
+              ><i class="fas fa-phone"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDEBAR COMPONENT -->
+      <div class="social">
+        <a href="mailto:hello@peakmindacademy.com"
+          >Email <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="tel:+14155550148"
+          >Phone <i class="fas fa-phone"></i>
+        </a>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>About</h2>
+          <div class="underline"></div>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./assets/images/matej-legs.jpeg" alt="Leg extension" />
+        </article>
+        <article class="aboutMe">
+          <!-- btn container -->
+
+          <div class="about-content">
+            <!-- single item -->
+            <div>
+              <h4>A little more about me</h4>
+              <p>
+                My name is Matej. I am from Zagreb, I am 23, and I work in
+                fitness. I played and trained dodgeball for the Croatian
+                Dodgeball Federation and competed in many events around the
+                world. My goal is to help and inspire as many people as
+                possible and support them in reaching the results they want.
+              </p>
+            </div>
+            <!-- <div class="btnContainerAbout">
+              <button class="btnAbout">e-Book</button>
+              <a href="#contactMe">
+                <button class="btnAbout">Contact</button></a
+              >
+            </div> -->
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+        </article>
+      </div>
+    </section>
+
+     <!-- services -->
+    <section id="services" class="section">
+    <!-- title -->
+        <div class="title">
+          <h2>Health</h2>
+          <div class="underline"></div>
+        </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./assets/images/health.jpg" alt="Health" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container-tabs">
+            <button class="tab-btn active" data-id="prehrana">nutrition</button>
+            <button class="tab-btn" data-id="trening">training</button>
+            <button class="tab-btn" data-id="san">sleep</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="prehrana">
+              <h4>Nutrition</h4>
+              <p>
+                Proper nutrition maintains good health, meets energy needs, and
+                makes physical work possible.
+              </p>
+              <h4>With proper nutrition you will:</h4>
+              <ul>
+                <li>~ Meet your micro and macro nutrient needs</li>
+                <li>~ Reach physical results</li>
+                <li>~ Be healthier</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="trening">
+              <h4>Why training matters</h4>
+              <p>
+                In today's society, built around a sedentary lifestyle, staying
+                active is very important. That means keeping your body
+                functional and protecting your health. The main benefit of
+                exercise is a lower risk of many diseases. Exercise does not
+                have to be boring or intimidating, and it can be something you
+                enjoy.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="san">
+              <h4>Why sleep matters</h4>
+              <p>
+                Quality sleep is incredibly important for your health. Sleeping
+                well matters just as much as eating well and exercising.
+              </p>
+              <h4>Lack of sleep affects:</h4>
+              <ul>
+                <li>~ concentration</li>
+                <li>~ productivity</li>
+                <li>~ work performance</li>
+                <li>~ the immune system</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="ebook" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>Training plan</h2>
+          <div class="underline"></div>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./assets/images/training-plan.jpg" alt="Training plan" />
+        </article>
+        <article class="aboutMe">
+          <!-- btn container -->
+
+          <div class="about-content">
+            <!-- single item -->
+            <div>
+              <h4>eBook — training plan</h4>
+              <p>
+                My name is Matej. I am from Zagreb, I am 23, and I work in
+                fitness. I played and trained dodgeball for the Croatian
+                Dodgeball Federation and competed in many events around the
+                world. My goal is to help and inspire as many people as
+                possible and support them in reaching the results they want.
+              </p>
+              <a href="./assets/training plan/training-plan.pdf" target="_blank"><button class="btn btn-ebook">eBook</button></a>
+            </div>
+            <!-- <div class="btnContainerAbout">
+              <button class="btnAbout">e-Book</button>
+              <a href="#contactMe">
+                <button class="btnAbout">Contact</button></a
+              >
+            </div> -->
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+        </article>
+      </div>
+    </section>
+
+<!-- Clients -->
+    <section id="clients" class="section">
+      <div class="slider">
+<!-- title -->
+        <div class="title">
+          <h2>Clients</h2>
+          <div class="underline"></div>
+      </div>
+       <div class="slide-container"></div>
+      <!-- prev next btn -->
+      <button class="btn-slider prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="btn-slider next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+       <!-- title -->
+        <div class="title">
+          <h2>Contact me</h2>
+          <div class="underline"></div>
+      </div>
+      <div class="contact-center section-center">
+        <article class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h4>Email</h4>
+          <a href="mailto:hello@peakmindacademy.com">hello@peakmindacademy.com</a>
+        </article>
+        <article class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h4>Phone</h4>
+          <a href="tel:+14155550148">+1 (415) 555-0148</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Peakmind Academy
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="./script.js"></script>
+    <script type="module" src="./slider.js"></script>
+</body>
+</html>
